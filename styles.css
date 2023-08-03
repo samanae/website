@@ -18,7 +18,7 @@ body, html {
     /* Add styles to control the appearance and positioning of the textual content */
     padding: 20px;
     /* Set some distance from the top since the animation covers the entire page */
-    margin-top: 15rem;
+    margin-top: 6rem;
     /* Add a maximum width to control the content's width on larger screens */
     max-width: 1200px;
     /* Center the content horizontally */

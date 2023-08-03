@@ -54,6 +54,8 @@ h1{
     margin-bottom: 1rem;
     position: relative;
     top: 17rem;
+    border: 2px solid white;
+    padding: 3px;
 }
 
 h2{

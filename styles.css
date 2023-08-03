@@ -1,0 +1,214 @@
+body, html {
+    margin: 8rem;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins','Open Sans', sans-serif;
+}
+
+#animation-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.main {
+    /* Add styles to control the appearance and positioning of the textual content */
+    padding: 20px;
+    /* Set some distance from the top since the animation covers the entire page */
+    margin-top: 15rem;
+    /* Add a maximum width to control the content's width on larger screens */
+    max-width: 1200px;
+    /* Center the content horizontally */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+nav {
+    display: block;
+    position: fixed;
+    bottom: 15rem;
+    right: 12rem;
+    color: rgba(255, 255, 255, 0.3); /* Initial opacity for non-active links */
+    z-index: 10;
+}
+
+nav li {
+    font-family: 'Inconsolata', monospace, sans-serif;
+    margin: 2em;
+}
+
+a.nav-item:hover {
+    color: rgba(255, 255, 255, 1);
+    border-bottom: 1px solid white;
+    padding: 0.3rem;
+}
+
+h1{
+    font-family: 'Inconsolata', monospace, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    position: relative;
+    top: 17rem;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 20rem;
+}
+
+#project-titles {
+    position: relative;
+    top: 2rem;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    max-width: 1000px;
+}
+
+#introduction {
+    position: relative;
+    max-width: 1000px;
+    top: 23rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+div  {
+    height: 100vh;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Project Section */
+
+
+div.img-previews a {
+    display: inline-block;
+    margin-right: 4em;
+    position: relative;
+    top: 10rem;
+    opacity: 0.2;
+}
+
+div.img-previews a:hover {
+    opacity: 0.9;
+}
+
+img{
+    border-radius: 10%;
+}
+
+#project-page {
+    position: relative;
+    top: 17rem;
+}
+
+#project-text {
+    position: relative;
+    top: 6rem;
+}
+
+#about-me-content {
+    position: relative;
+    top: 20rem;
+    max-width: 1000px;
+}
+
+#about-samia {
+    position: relative;
+    top: 17rem;
+}
+
+#download:hover {
+    border-bottom: 2px solid white;
+}
+
+/* social media hover */
+
+.socials-icon {
+    position: relative;
+    top: 25rem;
+    left: -2.2rem;
+    font-size: 40px; /* Initial size of the icon */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Add a smooth transition */
+    margin-right: 1em;
+    opacity: 0.3;
+  }
+
+  /* Hover styles */
+  .socials-icon:hover {
+    opacity: 1; /* Lower the opacity to 70% on hover */
+    border-bottom: 2px solid white;
+    border-spacing: 2px;
+  }
+
+  /* Max width 1000px */
+@media (max-width: 1000px) { 
+
+    div  {
+        height: 100vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        font-family: 'Inconsolata', monospace, sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 1rem;
+        margin-left: -3rem;
+        max-width: 300px;
+        position: relative;
+        top: 12rem;
+        display: inline;
+        }
+
+    h2{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        display: block;
+        margin-top: 15rem;
+        margin-left: -3rem;
+        max-width: 400px;
+    }
+    
+    p {
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+        display: block;
+        margin-top: 5rem;
+        margin-left: -3rem;
+        max-width: 400px;
+
+    }
+
+    nav {
+        display: block;
+        position: fixed;
+        bottom: 40vh;
+        right: 2rem;
+    }
+}

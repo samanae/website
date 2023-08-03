@@ -54,7 +54,7 @@ h1{
     margin-bottom: 1rem;
     position: relative;
     top: 17rem;
-    border: 2px solid white;
+    border-bottom: 2px solid white;
     padding: 3px;
 }
 
